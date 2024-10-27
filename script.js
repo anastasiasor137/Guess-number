@@ -33,4 +33,11 @@ document.querySelector('#numberInput').addEventListener('keyup', e => {
 // 
 // команды git :
 // git init - инициализация гита
-// 
+// git checkout new-branch - переключение на ветку new-branch 
+// git checkout -b new-branch - создание ветки new-branch и переключение на ветку new-branch 
+// git pull - стянуть изменения 
+// git clone *адрес репозитория* . - клонирование репозитория в текущую папку
+// git add - добавить файл в коммит
+// git commit -m "сообщение" - сделать коммит с предварительно добавленными в коммит файлами
+// git commit -am "сообщение" - сделать коммит со всеми измененными файлами 
+// git merge branch-name - смерджить ветку branch-name в текущую ветку 
