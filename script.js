@@ -9,7 +9,6 @@ const dangerAlert = document.querySelector('.alert-danger')
 document.querySelector('#numberInput').addEventListener('keyup', e => {
     if (e.keyCode === 13) {
         const usersNumber = parseInt(e.target.value)
-
         successAlert.classList.add('d-none')
         dangerAlert.classList.add('d-none')
 
